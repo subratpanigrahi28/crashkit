@@ -1,0 +1,11 @@
+#summary High-level requirements for CrashKit
+#labels Phase-Requirements
+
+= Introduction =
+
+Every developer wants crash logs, but nobody wants to replicate Apple's crash catcher by themselves. Crash Kit is intended to be a drop-in framework that can be used to detect the presence of new crash logs for an application, present UI to the user and upload the crash log.
+
+= Details =
+
+ * Ease of adoption - this is why Sparkle is so widely used.
+ * Works for applications and plug-ins to applications.
