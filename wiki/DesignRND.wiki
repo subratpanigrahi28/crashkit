@@ -1,0 +1,6 @@
+#summary Various documents that are relevant to crash catching
+#labels Phase-Design
+
+= Details =
+
+  * [http://developer.apple.com/technotes/tn2004/tn2123.html TN2123: CrashReporter] - not updated for Leopard.
