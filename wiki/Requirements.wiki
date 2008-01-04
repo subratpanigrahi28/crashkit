@@ -9,3 +9,5 @@ Every developer wants crash logs, but nobody wants to replicate Apple's crash ca
 
  * Ease of adoption - this is why Sparkle is so widely used.
  * Works for applications and plug-ins to applications.
+ * Supports Tiger and Leopard
+ * Allows multiple methods of submission (email, HTTP POST, etc.)
