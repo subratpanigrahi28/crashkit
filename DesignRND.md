@@ -1,0 +1,11 @@
+# Details #
+
+  * [TN2123: CrashReporter](http://developer.apple.com/technotes/tn2004/tn2123.html) - not updated for Leopard.
+
+# CrashReporter on Leopard #
+
+On Leopard, CrashReporter writes individual `.crash` files for each crash.  The files are stored flat in `~/Library/Logs/CrashReporter/` and are of the form `AppName_YYYY-MM-DD-hhmmss_hostname.crash`.
+
+# CrashReporter on Tiger #
+
+On Tiger, CrashReporter appends each crash to a file `AppName.crash.log` in `~/Library/Logs/CrashReporter/` so acquiring the date of the last crash is slightly more of a pain.
